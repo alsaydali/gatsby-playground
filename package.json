@@ -1,0 +1,42 @@
+{
+  "name": "gatsby-playground",
+  "version": "1.0.0",
+  "description": "Gatsby Start up",
+  "main": "index.js",
+  "dependencies": {
+    "gatsby": "^2.20.13",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.4"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsaydali/gatsby-playground.git"
+  },
+  "keywords": [
+    "Gatsby",
+    "Reactjs",
+    "JavaScript",
+    "ES6",
+    "CSS",
+    "SASS",
+    "HTML"
+  ],
+  "author": "Marwan Alsaydali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alsaydali/gatsby-playground/issues"
+  },
+  "homepage": "https://github.com/alsaydali/gatsby-playground#readme"
+}
