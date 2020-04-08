@@ -2,10 +2,12 @@ import React from "react"
 import Links from "../reuseable/links"
 
 const Nav = () => (
-  <nav>
-    Navbar
-    <Links />
-  </nav>
+  <div>
+    <nav className="container">
+      Navbar
+      <Links class="nav__links" />
+    </nav>
+  </div>
 )
 
 export default Nav
