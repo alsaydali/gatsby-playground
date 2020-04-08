@@ -1,5 +1,10 @@
 import React from "react"
 import Layout from "../layout/layout"
-const indexPage = () => <Layout>Hello World!</Layout>
+import Header from "../components/static/header"
+const indexPage = () => (
+  <Layout>
+    <Header title="Home" />
+  </Layout>
+)
 
 export default indexPage
