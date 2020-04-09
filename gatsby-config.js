@@ -8,7 +8,10 @@ module.exports = {
       summary: `I am a  Husband, Father, Webd Developer and Photographer.`,
     },
     social: {
-      twitter: `@alsaydali`,
+      twitter: `https://twitter.com/alsaydali`,
+      instagram: `https://www.instagram.com/alsaydali/`,
+      github: `https://github.com/alsaydali`,
+      behance: `https://www.behance.net/marwanalsaydali1`,
     },
   },
-};
+}
