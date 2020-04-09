@@ -1,8 +1,8 @@
 import React from "react"
 import SocialMedia from "../reuseable/socialmedia"
-const Footer = () => (
+const Footer = (props) => (
   <footer>
-    <SocialMedia />
+    <SocialMedia class="footer__social" width="24px" />
   </footer>
 )
 
