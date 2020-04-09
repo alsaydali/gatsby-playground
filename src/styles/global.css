@@ -45,6 +45,6 @@ footer {
   display: flex;
   justify-content: center;
 }
-.footer__social svg:not(:last-child) {
+.footer__social a:not(:last-child) {
   margin-right: 15px;
 }
