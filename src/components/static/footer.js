@@ -1,5 +1,9 @@
 import React from "react"
-
-const Footer = () => <footer>footer</footer>
+import SocialMedia from "../reuseable/socialmedia"
+const Footer = () => (
+  <footer>
+    <SocialMedia />
+  </footer>
+)
 
 export default Footer
