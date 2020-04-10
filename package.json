@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "gatsby": "^2.20.13",
+    "gatsby-source-filesystem": "^2.2.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
