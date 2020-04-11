@@ -23,5 +23,21 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Marwan Alsaydali`,
+        short_name: `Marwan`,
+        start_url: `/`,
+        background_color: `#f5f5f5`,
+        theme_color: `#f5f5f5`,
+        display: `standalone`,
+        icon: `src/images/icon.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
 }
