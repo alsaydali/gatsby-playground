@@ -1,6 +1,7 @@
 ---
 title: "The Third Post"
 date: "2020-04-10"
+featuredImage: post01.png
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus in hendrerit gravida rutrum quisque. Dolor morbi non arcu risus quis. Porttitor leo a diam sollicitudin. Elementum pulvinar etiam non quam lacus suspendisse faucibus. Leo vel orci porta non pulvinar. Pharetra pharetra massa massa ultricies mi. Libero nunc consequat interdum varius sit amet mattis. Tempus quam pellentesque nec nam aliquam sem et. Augue neque gravida in fermentum et. Scelerisque fermentum dui faucibus in ornare quam viverra. Eu mi bibendum neque egestas congue quisque egestas diam in. Sed turpis tincidunt id aliquet risus feugiat in. Felis bibendum ut tristique et. Quam viverra orci sagittis eu volutpat odio facilisis mauris sit. Diam in arcu cursus euismod quis. Quis lectus nulla at volutpat diam ut venenatis tellus in. Scelerisque purus semper eget duis at tellus at. Purus sit amet volutpat consequat mauris nunc congue nisi.
