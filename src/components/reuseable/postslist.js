@@ -1,11 +1,11 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 const PostsList = (props) => {
   const data = useStaticQuery(
     graphql`
       query {
-        allMarkdownRemark {
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
           totalCount
           edges {
             node {
@@ -13,6 +13,9 @@ const PostsList = (props) => {
               frontmatter {
                 title
                 date(formatString: "DD MMMM, YYYY")
+              }
+              fields {
+                slug
               }
               excerpt
             }
@@ -23,15 +26,16 @@ const PostsList = (props) => {
   )
   return (
     <div className={props.class}>
-      {" "}
       <h4>Posts List</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
-          <h3>
-            {node.frontmatter.title}
-            <span>— {node.frontmatter.date}</span>
-          </h3>
-          <p>{node.excerpt}</p>
+          <Link to={node.fields.slug}>
+            <h3>
+              {node.frontmatter.title}
+              <span>— {node.frontmatter.date}</span>
+            </h3>
+            <p>{node.excerpt}</p>
+          </Link>
         </div>
       ))}
     </div>
